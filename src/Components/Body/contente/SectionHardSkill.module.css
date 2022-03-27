@@ -1,0 +1,58 @@
+.hardSkill{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.titlehedskill{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.hardSkillArticle{
+    width: 400px;
+    min-width: 300px;
+    height: 450px;
+    border-radius: 50px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px -7px;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
+
+}
+.hardSkillArticle:nth-child(2){
+    transform: translateY(-50px);
+}
+.imgTopoHardSkils{
+    width: 100px;
+}
+.hardSkillArticle > ul{
+    width: 100%;
+    margin: 0px;
+}
+.hardSkillArticle > ul > li{
+    width: 100%;
+    margin-left: 10px;
+    list-style: none;
+    width: 85%;
+    text-align: center;
+    font-size: x-large;
+}
+@media (max-width: 600px) {
+    .hardSkill{
+        flex-wrap: wrap;
+    }
+    .hardSkillArticle {
+        width: 90%;
+    }
+    .hardSkillArticle:nth-child(2){
+        transform: translateY(0px);
+    }
+  }
