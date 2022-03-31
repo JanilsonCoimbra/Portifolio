@@ -1,5 +1,5 @@
 import Styles from './header.module.css'
-
+import Foto from './foto.png'
 function Header() {
     return (<>
         <header className={Styles.headerStyles}>
@@ -9,6 +9,7 @@ function Header() {
                     Que tamanho tem o meu mundo?
                     Tem o tamanho dos seus sonhos.</p>
             </span>
+            <img className={Styles.capaFoto} src={Foto} alt='Foto de capa' />
         </header>
         <section className={Styles.cardPefil} data-navanimate>
             <div className={Styles.cardPerfilFoto}></div>
