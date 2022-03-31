@@ -4,10 +4,7 @@ function Header() {
     return (<>
         <header className={Styles.headerStyles}>
             <span className={Styles.headerParagraf}>
-                <p>Que tamanho tem o universo?<br />
-                    O universo tem o tamanho do seu mundo.
-                    Que tamanho tem o meu mundo?
-                    Tem o tamanho dos seus sonhos.</p>
+               
             </span>
             <img className={Styles.capaFoto} src={Foto} alt='Foto de capa' />
         </header>
